@@ -3,7 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Title -->
     <title>Vision3AI</title>
+    <!-- CSS/JS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="javascript" type="js" href="vision.js">
     <!-- Font Awesome -->
@@ -13,7 +18,6 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
 
 </head>
 
@@ -39,6 +43,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#solution">Our Solution</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#solution">Research</a>
                     </li>
                 </ul>
             </div>
@@ -162,10 +169,8 @@
                         <!--/First column-->
 
                         <!--Second column-->
-                        <div class="col-md-4 flex-center" data-aos="fade-zoom-in"
-                        data-aos-easing="ease-in-back"
-                        data-aos-delay="500"
-                        data-aos-offset="0">
+                        <div class="col-md-4 flex-center" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                            data-aos-delay="500" data-aos-offset="0">
                             <img src="assets/images/Computer.png" alt="UI/UX" class="z-depth-0 " style="width:85%">
                         </div>
                         <!--/Second column-->
@@ -238,16 +243,9 @@
                     <!--/First row-->
                 </div>
             </section>
-            <section>
-                <div class="jarallax" style="background-attachment: fixed;
-                 background-position: center;
-                 background-repeat: no-repeat;
-                 background-size: cover;margin-left: -18%;">
-                    <img class="jarallax-img" src="assets/images/Neuron.png" alt="">
-                    </>
+
+                
             </section>
-
-
             <!--Section: More-->
             <section id="solution">
 
@@ -257,8 +255,7 @@
                 <div class="row features-small mt-5">
 
                     <!--Grid column-->
-                    <div class="col-xl-3 col-lg-6" data-aos="flip-left" data-aos-easing="linear"
-                    data-aos-duration="2500">
+                    <div class="col-xl-3 col-lg-6" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="2500">
                         <!--Grid row-->
                         <div class="row">
                             <div class="col-2">
@@ -294,8 +291,7 @@
                     <!--/Grid column-->
 
                     <!--Grid column-->
-                    <div class="col-xl-3 col-lg-6" data-aos="flip-up" data-aos-easing="linear"
-                    data-aos-duration="2500">
+                    <div class="col-xl-3 col-lg-6" data-aos="flip-up" data-aos-easing="linear" data-aos-duration="2500">
                         <!--Grid row-->
                         <div class="row">
                             <div class="col-2">
@@ -355,8 +351,7 @@
                     <!--/Grid column-->
 
                     <!--Grid column-->
-                    <div class="col-xl-3 col-lg-6" data-aos="zoom-in-down" data-aos-easing="linear"
-                    data-aos-duration="1500">
+                    <div class="col-xl-3 col-lg-6" data-aos="zoom-in-down" data-aos-easing="linear" data-aos-duration="1500">
                         <!--Grid row-->
                         <div class="row">
                             <div class="col-2">
@@ -391,8 +386,7 @@
                     <!--/Grid column-->
 
                     <!--Grid column-->
-                    <div class="col-xl-3 col-lg-6" data-aos="zoom-in-right" data-aos-easing="linear"
-                    data-aos-duration="1500">
+                    <div class="col-xl-3 col-lg-6" data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1500">
                         <!--Grid row-->
                         <div class="row">
                             <div class="col-2">
@@ -560,7 +554,7 @@
     <footer class="page-footer text-center font-small mt-4 wow fadeIn">
         <!--Copyright-->
         <div class="footer-copyright py-3">
-            Vision3AI © 2018 Copyright
+            <h5> Vision3AI © 2018 Copyright</h5>
         </div>
         <!--/.Copyright-->
     </footer>
@@ -573,8 +567,11 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.5/js/mdb.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-            AOS.init();
-          </script>
+        new WOW().init()
+    </script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>

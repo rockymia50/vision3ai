@@ -47,3 +47,16 @@ header,
 .page-footer {
   background-color: rgba(73, 70, 70, 0.3);; }
 
+.parallax{
+
+    /* The image used */
+    background-image: url("/Users/rogermcintosh/vision3boot/assets/css/style.css");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
